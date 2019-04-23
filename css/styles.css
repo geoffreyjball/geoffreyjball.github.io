@@ -1,0 +1,13 @@
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+h1.dokdo {
+    font-family: 'Dokdo', cursive;
+    font-size: 300%;
+}
