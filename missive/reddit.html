@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  
+
+  <title>Missive</title>
+  <meta name="description" content="geoffonthe.net">
+  <meta name="author" content="Geoff Ball">
+  
+  <link href="https://integrations.missiveapp.com/missive.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="https://integrations.missiveapp.com/missive.js"></script>
+  <script src="js/reddit.js"></script>
+</head>
+
+<body>
+  <div class="center-screen">
+    <h1>Missive</h1>
+    <form action="https://api.reddit.com/r/learnprogramming/search" method="get">
+        <label for="q">Search terms: </label>
+        <input type="text" name="q" id="q" required>
+        <input type="hidden" name="limit" id="limit" value="1">
+        <p><input type="submit" value="Send"></p>
+    </form>
+  </div>
+
+
+</body>
+</html>
